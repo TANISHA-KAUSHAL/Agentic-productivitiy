@@ -1,0 +1,724 @@
+{
+  "users": [
+    {
+      "id": "usr_1794827003278",
+      "name": "Tanisha",
+      "email": "kaushaltanisha9@gmail.com",
+      "passwordHash": "$2b$10$w0lALpRYzcvNOcUu7HCY.u0MIRlzEa97IUCMlxsv4uXiRqgvyYskS",
+      "createdAt": "2026-11-16T11:03:23.278Z"
+    }
+  ],
+  "goals": [
+    {
+      "id": "goal_1794827035451",
+      "userId": "usr_1794827003278",
+      "title": "make a tea",
+      "createdAt": "2026-11-16T11:03:55.451Z",
+      "isActive": false
+    },
+    {
+      "id": "goal_1794914662355",
+      "userId": "usr_1794827003278",
+      "title": "learn mern stack",
+      "createdAt": "2026-11-17T11:24:22.355Z",
+      "isActive": false
+    },
+    {
+      "id": "goal_1794914725650",
+      "userId": "usr_1794827003278",
+      "title": "how to work on business plan",
+      "createdAt": "2026-11-17T11:25:25.650Z",
+      "isActive": false
+    },
+    {
+      "id": "goal_1795070050708",
+      "userId": "usr_1794827003278",
+      "title": "how to make a coffee",
+      "createdAt": "2026-11-19T06:34:10.708Z",
+      "isActive": false
+    },
+    {
+      "id": "goal_1795070366421",
+      "userId": "usr_1794827003278",
+      "title": "how to make a maggie",
+      "createdAt": "2026-11-19T06:39:26.421Z",
+      "isActive": true
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task_1795070366422_1",
+      "userId": "usr_1794827003278",
+      "goalId": "goal_1795070366421",
+      "title": "Gather Ingredients & Equipment",
+      "description": "Collect the Maggi noodles packet, appropriate amount of water, a cooking pot, and ensure a heat source is available.",
+      "priority": "P1",
+      "status": "todo",
+      "category": "Planning",
+      "toolRequired": "workspace_file_checker",
+      "estimatedMinutes": 5,
+      "toolExecutionLog": null,
+      "createdAt": "2026-11-19T06:39:26.422Z",
+      "updatedAt": "2026-11-19T06:39:26.422Z"
+    },
+    {
+      "id": "task_1795070366422_2",
+      "userId": "usr_1794827003278",
+      "goalId": "goal_1795070366421",
+      "title": "Boil Water & Add Noodles",
+      "description": "Pour the required water into the pot, bring it to a rolling boil, then carefully add the Maggi noodles.",
+      "priority": "P1",
+      "status": "todo",
+      "category": "Operations",
+      "toolRequired": "focus_timer_tracker",
+      "estimatedMinutes": 3,
+      "toolExecutionLog": null,
+      "createdAt": "2026-11-19T06:39:26.422Z",
+      "updatedAt": "2026-11-19T06:39:26.422Z"
+    },
+    {
+      "id": "task_1795070366422_3",
+      "userId": "usr_1794827003278",
+      "goalId": "goal_1795070366421",
+      "title": "Add Seasoning & Simmer",
+      "description": "Stir in the seasoning packet from the Maggi packet and continue to cook until the noodles are tender and most of the water has been absorbed.",
+      "priority": "P1",
+      "status": "todo",
+      "category": "Operations",
+      "toolRequired": "focus_timer_tracker",
+      "estimatedMinutes": 3,
+      "toolExecutionLog": null,
+      "createdAt": "2026-11-19T06:39:26.422Z",
+      "updatedAt": "2026-11-19T06:39:26.422Z"
+    },
+    {
+      "id": "task_1795070366422_4",
+      "userId": "usr_1794827003278",
+      "goalId": "goal_1795070366421",
+      "title": "Serve & Enjoy",
+      "description": "Carefully transfer the hot Maggi noodles into a serving bowl and enjoy your freshly prepared meal.",
+      "priority": "P2",
+      "status": "todo",
+      "category": "Operations",
+      "toolRequired": "focus_timer_tracker",
+      "estimatedMinutes": 2,
+      "toolExecutionLog": null,
+      "createdAt": "2026-11-19T06:39:26.422Z",
+      "updatedAt": "2026-11-19T06:39:26.422Z"
+    },
+    {
+      "id": "task_1795070050708_1",
+      "userId": "usr_1794827003278",
+      "goalId": "goal_1795070050708",
+      "title": "Gather Coffee Essentials",
+      "description": "Collect coffee beans or grounds, fresh water, a coffee maker, a filter, and a mug.",
+      "priority": "P1",
+      "status": "todo",
+      "category": "Preparation",
+      "toolRequired": "focus_timer_tracker",
+      "estimatedMinutes": 5,
+      "toolExecutionLog": null,
+      "createdAt": "2026-11-19T06:34:10.708Z",
+      "updatedAt": "2026-11-19T06:34:10.708Z"
+    },
+    {
+      "id": "task_1795070050708_2",
+      "userId": "usr_1794827003278",
+      "goalId": "goal_1795070050708",
+      "title": "Set Up Coffee Machine",
+      "description": "Fill the coffee maker's reservoir with water and add the appropriate amount of coffee grounds to the filter.",
+      "priority": "P1",
+      "status": "todo",
+      "category": "Preparation",
+      "toolRequired": "focus_timer_tracker",
+      "estimatedMinutes": 3,
+      "toolExecutionLog": null,
+      "createdAt": "2026-11-19T06:34:10.708Z",
+      "updatedAt": "2026-11-19T06:34:10.708Z"
+    },
+    {
+      "id": "task_1795070050708_3",
+      "userId": "usr_1794827003278",
+      "goalId": "goal_1795070050708",
+      "title": "Initiate Brewing Process",
+      "description": "Turn on the coffee maker and allow it to complete the brewing cycle.",
+      "priority": "P1",
+      "status": "todo",
+      "category": "Execution",
+      "toolRequired": "focus_timer_tracker",
+      "estimatedMinutes": 10,
+      "toolExecutionLog": null,
+      "createdAt": "2026-11-19T06:34:10.708Z",
+      "updatedAt": "2026-11-19T06:34:10.708Z"
+    },
+    {
+      "id": "task_1795070050708_4",
+      "userId": "usr_1794827003278",
+      "goalId": "goal_1795070050708",
+      "title": "Serve and Customize Coffee",
+      "description": "Pour the freshly brewed coffee into a mug and add milk, sugar, or other desired condiments.",
+      "priority": "P2",
+      "status": "todo",
+      "category": "Completion",
+      "toolRequired": "focus_timer_tracker",
+      "estimatedMinutes": 2,
+      "toolExecutionLog": null,
+      "createdAt": "2026-11-19T06:34:10.708Z",
+      "updatedAt": "2026-11-19T06:34:10.708Z"
+    },
+    {
+      "id": "task_1794914725650_1",
+      "userId": "usr_1794827003278",
+      "goalId": "goal_1794914725650",
+      "title": "Plan & Scope: \"how to work on business plan\"",
+      "description": "Define key deliverables and requirements for how to work on business plan.",
+      "priority": "P1",
+      "status": "completed",
+      "category": "Planning",
+      "toolRequired": "workspace_file_checker",
+      "estimatedMinutes": 30,
+      "toolExecutionLog": "Workspace Audit: Verified 4/4 critical files exist (package.json, tsconfig.json, lib/db.ts, lib/ai.ts).",
+      "createdAt": "2026-11-17T11:25:25.650Z",
+      "updatedAt": "2026-11-17T11:37:23.416Z"
+    },
+    {
+      "id": "task_1794914725650_2",
+      "userId": "usr_1794827003278",
+      "goalId": "goal_1794914725650",
+      "title": "Build Core Implementation",
+      "description": "Execute main development logic for how to work on business plan.",
+      "priority": "P1",
+      "status": "completed",
+      "category": "Development",
+      "toolRequired": "code_syntax_validator",
+      "estimatedMinutes": 60,
+      "toolExecutionLog": "Syntax Validator: lib/db.ts passed syntax and balance audit (10 balanced scopes).",
+      "createdAt": "2026-11-17T11:25:25.650Z",
+      "updatedAt": "2026-11-17T11:37:18.496Z"
+    },
+    {
+      "id": "task_1794914725650_3",
+      "userId": "usr_1794827003278",
+      "goalId": "goal_1794914725650",
+      "title": "Verify & Test Deliverables",
+      "description": "Run automated tool checks and inspect results.",
+      "priority": "P2",
+      "status": "completed",
+      "category": "Testing",
+      "toolRequired": "api_endpoint_verifier",
+      "estimatedMinutes": 45,
+      "toolExecutionLog": "API Verifier: Internal Next.js App Router endpoints verified healthy.",
+      "createdAt": "2026-11-17T11:25:25.650Z",
+      "updatedAt": "2026-11-17T11:37:08.509Z"
+    },
+    {
+      "id": "task_1794914662355_1",
+      "userId": "usr_1794827003278",
+      "goalId": "goal_1794914662355",
+      "title": "Research MERN Stack Basics & Setup",
+      "description": "Understand full stack architecture: MongoDB, Express, React, and Node.js.",
+      "priority": "P1",
+      "status": "completed",
+      "category": "Research",
+      "toolRequired": "focus_timer_tracker",
+      "estimatedMinutes": 60,
+      "toolExecutionLog": "Focus Timer: Logged 60 minutes of dedicated deep work for \"Research MERN Stack Basics & Setup\".",
+      "createdAt": "2026-11-17T11:24:22.355Z",
+      "updatedAt": "2026-11-17T11:24:49.482Z"
+    },
+    {
+      "id": "task_1794914662355_2",
+      "userId": "usr_1794827003278",
+      "goalId": "goal_1794914662355",
+      "title": "Explore Node.js & Express.js Server Setup",
+      "description": "Write basic Express server and route handlers.",
+      "priority": "P2",
+      "status": "completed",
+      "category": "Backend",
+      "toolRequired": "code_syntax_validator",
+      "estimatedMinutes": 45,
+      "toolExecutionLog": "Syntax Validator: lib/db.ts passed syntax and balance audit (10 balanced scopes).",
+      "createdAt": "2026-11-17T11:24:22.355Z",
+      "updatedAt": "2026-11-19T06:06:02.392Z"
+    },
+    {
+      "id": "task_1794914662355_3",
+      "userId": "usr_1794827003278",
+      "goalId": "goal_1794914662355",
+      "title": "Design MongoDB Schema & CRUD Operations",
+      "description": "Model database collections using Mongoose or MongoDB driver.",
+      "priority": "P2",
+      "status": "completed",
+      "category": "Database",
+      "toolRequired": "api_endpoint_verifier",
+      "estimatedMinutes": 45,
+      "toolExecutionLog": "API Verifier: Internal Next.js App Router endpoints verified healthy.",
+      "createdAt": "2026-11-17T11:24:22.355Z",
+      "updatedAt": "2026-11-19T06:06:02.393Z"
+    },
+    {
+      "id": "task_1794914662355_4",
+      "userId": "usr_1794827003278",
+      "goalId": "goal_1794914662355",
+      "title": "Build React Frontend & Connect API",
+      "description": "Implement client UI with React components and fetch backend data.",
+      "priority": "P3",
+      "status": "completed",
+      "category": "Frontend",
+      "toolRequired": "workspace_file_checker",
+      "estimatedMinutes": 60,
+      "toolExecutionLog": "Workspace Audit: Verified 4/4 critical files exist (package.json, tsconfig.json, lib/db.ts, lib/ai.ts).",
+      "createdAt": "2026-11-17T11:24:22.355Z",
+      "updatedAt": "2026-11-19T06:05:26.133Z"
+    },
+    {
+      "id": "task_1794827035451_1",
+      "userId": "usr_1794827003278",
+      "goalId": "goal_1794827035451",
+      "title": "Gather Tea Supplies",
+      "description": "Collect tea leaves, water, kettle, and teapot.",
+      "priority": "P1",
+      "status": "completed",
+      "category": "Preparation",
+      "toolRequired": "focus_timer_tracker",
+      "estimatedMinutes": 5,
+      "toolExecutionLog": "Focus Timer: Logged 5 minutes of preparation.",
+      "createdAt": "2026-11-16T11:03:55.451Z",
+      "updatedAt": "2026-11-16T11:04:41.056Z"
+    },
+    {
+      "id": "task_1794827035451_2",
+      "userId": "usr_1794827003278",
+      "goalId": "goal_1794827035451",
+      "title": "Boil Water",
+      "description": "Heat water to optimal temperature.",
+      "priority": "P1",
+      "status": "completed",
+      "category": "Brewing",
+      "toolRequired": "focus_timer_tracker",
+      "estimatedMinutes": 5,
+      "toolExecutionLog": "Focus Timer: Logged 5 minutes of boiling water.",
+      "createdAt": "2026-11-16T11:03:55.451Z",
+      "updatedAt": "2026-11-16T11:04:42.153Z"
+    },
+    {
+      "id": "task_1794827035451_3",
+      "userId": "usr_1794827003278",
+      "goalId": "goal_1794827035451",
+      "title": "Steep Tea",
+      "description": "Pour hot water over tea leaves and steep for 4 minutes.",
+      "priority": "P2",
+      "status": "completed",
+      "category": "Brewing",
+      "toolRequired": "focus_timer_tracker",
+      "estimatedMinutes": 4,
+      "toolExecutionLog": "Focus Timer: Logged 4 minutes of steeping.",
+      "createdAt": "2026-11-16T11:03:55.451Z",
+      "updatedAt": "2026-11-16T11:04:42.153Z"
+    },
+    {
+      "id": "task_1794827035451_4",
+      "userId": "usr_1794827003278",
+      "goalId": "goal_1794827035451",
+      "title": "Customize and Serve Tea",
+      "description": "Add sweetener or milk if desired and serve hot.",
+      "priority": "P2",
+      "status": "completed",
+      "category": "Serving",
+      "toolRequired": "focus_timer_tracker",
+      "estimatedMinutes": 3,
+      "toolExecutionLog": "Focus Timer: Logged 3 minutes of serving.",
+      "createdAt": "2026-11-16T11:03:55.451Z",
+      "updatedAt": "2026-11-16T11:04:42.153Z"
+    }
+  ],
+  "summaries": [
+    {
+      "id": "summary_1795070378662",
+      "userId": "usr_1794827003278",
+      "date": "2026-11-19",
+      "completionRate": 58,
+      "totalTasks": 19,
+      "completedTasks": 11,
+      "productivityScore": 100,
+      "highlights": [
+        "Achieved an excellent 100/100 productivity score, indicating strong focus on high-impact tasks.",
+        "Successfully completed significant strategic work, including the 'Business Plan' and 'MERN Stack' learning initiatives.",
+        "Demonstrated effective task management by completing all sub-tasks for key projects."
+      ],
+      "blockers": "No critical blockers detected.",
+      "aiRecommendation": "Your strategic focus today was outstanding, leading to a perfect productivity score. Carry this momentum into tomorrow by tackling your remaining routine tasks efficiently, freeing up even more time for high-impact work.",
+      "generatedAt": "2026-11-19T06:39:38.662Z"
+    },
+    {
+      "id": "summary_1795070062555",
+      "userId": "usr_1794827003278",
+      "date": "2026-11-19",
+      "completionRate": 73,
+      "totalTasks": 15,
+      "completedTasks": 11,
+      "productivityScore": 100,
+      "highlights": [
+        "Successfully completed all MERN Stack development tasks, demonstrating significant progress in a key technical area.",
+        "Achieved a perfect productivity score of 100/100, reflecting highly effective task management and execution."
+      ],
+      "blockers": "No critical blockers detected.",
+      "aiRecommendation": "Your perfect productivity score is commendable! Carry this excellent momentum into tomorrow by quickly wrapping up the remaining coffee tasks to start your day with a clean slate.",
+      "generatedAt": "2026-11-19T06:34:22.555Z"
+    },
+    {
+      "id": "summary_1795069630405",
+      "userId": "usr_1794827003278",
+      "date": "2026-11-19",
+      "completionRate": 100,
+      "totalTasks": 11,
+      "completedTasks": 11,
+      "productivityScore": 100,
+      "highlights": [
+        "Achieved a perfect 100% completion rate for all tasks today.",
+        "Demonstrated exceptional progress across diverse projects, from MERN stack development to strategic planning and daily tasks."
+      ],
+      "blockers": "No critical blockers detected.",
+      "aiRecommendation": "Continue this impressive momentum by identifying your next key priorities and applying the same focused execution to achieve new milestones tomorrow.",
+      "generatedAt": "2026-11-19T06:27:10.405Z"
+    },
+    {
+      "id": "summary_1795068367252",
+      "userId": "usr_1794827003278",
+      "date": "2026-11-19",
+      "completionRate": 100,
+      "totalTasks": 11,
+      "completedTasks": 11,
+      "productivityScore": 100,
+      "highlights": [
+        "Achieved an outstanding 100% completion rate across all 11 tasks, demonstrating exceptional focus and execution.",
+        "Successfully progressed on diverse projects, including strategic business planning, complex MERN stack development, and personal routines."
+      ],
+      "blockers": "No critical blockers detected.",
+      "aiRecommendation": "Fantastic work today, achieving a perfect completion rate across diverse and complex tasks. Carry this incredible momentum into tomorrow by identifying your next key priorities and applying the same disciplined approach to achieve continued success.",
+      "generatedAt": "2026-11-19T06:06:07.252Z"
+    },
+    {
+      "id": "summary_1795068329726",
+      "userId": "usr_1794827003278",
+      "date": "2026-11-19",
+      "completionRate": 82,
+      "totalTasks": 11,
+      "completedTasks": 9,
+      "productivityScore": 100,
+      "highlights": [
+        "Achieved an impressive 82% completion rate and a perfect 100/100 productivity score, demonstrating exceptional focus and execution.",
+        "Successfully completed the entire 'tea' project and made substantial progress on the 'MERN Stack' project, even tackling a P3 task."
+      ],
+      "blockers": "No critical blockers detected.",
+      "aiRecommendation": "Leverage today's excellent momentum by prioritizing the remaining P2 tasks for your MERN Stack project tomorrow, ensuring continued progress on key deliverables.",
+      "generatedAt": "2026-11-19T06:05:29.726Z"
+    },
+    {
+      "id": "summary_1794915445541",
+      "userId": "usr_1794827003278",
+      "date": "2026-11-17",
+      "completionRate": 100,
+      "totalTasks": 3,
+      "completedTasks": 3,
+      "productivityScore": 95,
+      "highlights": [
+        "Achieved a perfect 100% completion rate, finishing all 3 planned tasks for the day.",
+        "Demonstrated strong execution across key project phases: planning, building, and verification.",
+        "Maintained an excellent productivity score of 95/100, indicating high efficiency and focus."
+      ],
+      "blockers": "No critical blockers detected.",
+      "aiRecommendation": "Fantastic work today, completing all your tasks and maintaining high productivity! Carry this momentum forward by identifying the next critical steps for your business plan and tackling them with the same strategic focus tomorrow.",
+      "generatedAt": "2026-11-17T11:37:25.541Z"
+    },
+    {
+      "id": "summary_1794915441684",
+      "userId": "usr_1794827003278",
+      "date": "2026-11-17",
+      "completionRate": 67,
+      "totalTasks": 3,
+      "completedTasks": 2,
+      "productivityScore": 70,
+      "highlights": [
+        "You achieved a strong 67% task completion rate today, successfully finishing two key implementation and verification tasks.",
+        "Excellent work on 'Build Core Implementation' and 'Verify & Test Deliverables', demonstrating effective execution."
+      ],
+      "blockers": "No critical blockers detected.",
+      "aiRecommendation": "Tomorrow, dedicate focused time to the 'Plan & Scope' task; breaking down 'how to work on business plan' into smaller, actionable steps will build momentum and clarify your strategic direction.",
+      "generatedAt": "2026-11-17T11:37:21.684Z"
+    },
+    {
+      "id": "summary_1794915433085",
+      "userId": "usr_1794827003278",
+      "date": "2026-11-17",
+      "completionRate": 33,
+      "totalTasks": 3,
+      "completedTasks": 1,
+      "productivityScore": 45,
+      "highlights": [
+        "You successfully completed 'Verify & Test Deliverables' for P2, demonstrating your ability to finalize tasks.",
+        "P1's foundational 'Plan & Scope' and 'Build Core Implementation' tasks are still pending, indicating a need for focused attention on its initial stages."
+      ],
+      "blockers": "No critical blockers detected.",
+      "aiRecommendation": "Tomorrow, dedicate a focused block to outline the first three actionable steps for 'how to work on business plan' for P1. Breaking it down will build momentum and clarify the path forward.",
+      "generatedAt": "2026-11-17T11:37:13.086Z"
+    },
+    {
+      "id": "summary_1794914734961",
+      "userId": "usr_1794827003278",
+      "date": "2026-11-17",
+      "completionRate": 0,
+      "totalTasks": 3,
+      "completedTasks": 0,
+      "productivityScore": 20,
+      "highlights": [],
+      "blockers": "No critical blockers detected.",
+      "aiRecommendation": "Prioritize tackling your highest-impact P1 task to kickstart velocity today.",
+      "generatedAt": "2026-11-17T11:25:34.961Z"
+    },
+    {
+      "id": "summary_1794914694133",
+      "userId": "usr_1794827003278",
+      "date": "2026-11-17",
+      "completionRate": 25,
+      "totalTasks": 4,
+      "completedTasks": 1,
+      "productivityScore": 45,
+      "highlights": [
+        "Successfully completed the foundational 'Research MERN Stack Basics & Setup' task, establishing a strong starting point.",
+        "You have a clear roadmap for the next steps in exploring Node.js, MongoDB, and React.js."
+      ],
+      "blockers": "No critical blockers detected.",
+      "aiRecommendation": "To build momentum tomorrow, focus on diving deep into just one of the remaining 'P2' tasks, like 'Explore Node.js & Express.js Basics'. Prioritizing one component will help you gain a solid understanding before moving to the next.",
+      "generatedAt": "2026-11-17T11:24:54.133Z"
+    },
+    {
+      "id": "summary_1794914668333",
+      "userId": "usr_1794827003278",
+      "date": "2026-11-17",
+      "completionRate": 0,
+      "totalTasks": 4,
+      "completedTasks": 0,
+      "productivityScore": 20,
+      "highlights": [],
+      "blockers": "No critical blockers detected.",
+      "aiRecommendation": "Prioritize tackling your highest-impact P1 task to kickstart velocity today.",
+      "generatedAt": "2026-11-17T11:24:28.333Z"
+    },
+    {
+      "id": "summary_1794827084658",
+      "userId": "usr_1794827003278",
+      "date": "2026-11-16",
+      "completionRate": 100,
+      "totalTasks": 4,
+      "completedTasks": 4,
+      "productivityScore": 100,
+      "highlights": [
+        "Achieved 100% completion of all planned tasks for the day.",
+        "Successfully executed a multi-step process from start to finish, demonstrating excellent follow-through."
+      ],
+      "blockers": "No critical blockers detected.",
+      "aiRecommendation": "Outstanding work today! Carry this momentum and focused execution into tomorrow's priorities, applying the same step-by-step approach to tackle even more complex projects with confidence.",
+      "generatedAt": "2026-11-16T11:04:44.658Z"
+    },
+    {
+      "id": "summary_1794827081056",
+      "userId": "usr_1794827003278",
+      "date": "2026-11-16",
+      "completionRate": 25,
+      "totalTasks": 4,
+      "completedTasks": 1,
+      "productivityScore": 45,
+      "highlights": [
+        "You've successfully completed the initial step of Project 1, 'Gather Tea Supplies'.",
+        "A clear start has been made on your tasks for today."
+      ],
+      "blockers": "No critical blockers detected.",
+      "aiRecommendation": "Tomorrow, prioritize completing the remaining P1 tasks early to build strong momentum and significantly boost your completion rate. A focused start will set a positive tone for your entire day.",
+      "generatedAt": "2026-11-16T11:04:41.056Z"
+    },
+    {
+      "id": "summary_1794827043898",
+      "userId": "usr_1794827003278",
+      "date": "2026-11-16",
+      "completionRate": 0,
+      "totalTasks": 4,
+      "completedTasks": 0,
+      "productivityScore": 20,
+      "highlights": [],
+      "blockers": "No critical blockers detected.",
+      "aiRecommendation": "Prioritize tackling your highest-impact P1 task to kickstart velocity today.",
+      "generatedAt": "2026-11-16T11:04:03.899Z"
+    }
+  ],
+  "agentLogs": [
+    {
+      "id": "log_1795070373446",
+      "userId": "usr_1794827003278",
+      "timestamp": "2026-11-19T06:39:33.446Z",
+      "level": "INFO",
+      "source": "GeminiPlanner",
+      "message": "Decomposed goal \"how to make a maggie\" into 4 prioritized tasks."
+    },
+    {
+      "id": "log_1795070055803",
+      "userId": "usr_1794827003278",
+      "timestamp": "2026-11-19T06:34:15.803Z",
+      "level": "INFO",
+      "source": "GeminiPlanner",
+      "message": "Decomposed goal \"how to make a coffee\" into 4 prioritized tasks."
+    },
+    {
+      "id": "log_1795069630405",
+      "userId": "usr_1794827003278",
+      "timestamp": "2026-11-19T06:27:10.405Z",
+      "level": "INFO",
+      "source": "SummaryEngine",
+      "message": "Daily Summary regenerated: Completion Rate 100%, Productivity Score 100/100."
+    },
+    {
+      "id": "log_1795068362393_task_1794914662355_3",
+      "userId": "usr_1794827003278",
+      "timestamp": "2026-11-19T06:06:02.393Z",
+      "level": "SUCCESS",
+      "source": "AutonomousLoop",
+      "message": "Auto-verified \"Design MongoDB Schema & CRUD Operations\" via [api_endpoint_verifier]: API Verifier: Internal Next.js App Router endpoints verified healthy. -> Status: [completed]"
+    },
+    {
+      "id": "log_1795068362393_task_1794914662355_2",
+      "userId": "usr_1794827003278",
+      "timestamp": "2026-11-19T06:06:02.393Z",
+      "level": "SUCCESS",
+      "source": "AutonomousLoop",
+      "message": "Auto-verified \"Explore Node.js & Express.js Server Setup\" via [code_syntax_validator]: Syntax Validator: lib/db.ts passed syntax and balance audit (10 balanced scopes). -> Status: [completed]"
+    },
+    {
+      "id": "log_1795068326134_done",
+      "userId": "usr_1794827003278",
+      "timestamp": "2026-11-19T06:05:26.134Z",
+      "level": "SUCCESS",
+      "source": "ToolRunner",
+      "message": "Tool [workspace_file_checker] output: \"Workspace Audit: Verified 4/4 critical files exist (package.json, tsconfig.json, lib/db.ts, lib/ai.ts).\" -> Status set to [completed]"
+    },
+    {
+      "id": "log_1795068326132_start",
+      "userId": "usr_1794827003278",
+      "timestamp": "2026-11-19T06:05:26.132Z",
+      "level": "TOOL",
+      "source": "AutonomousAgent",
+      "message": "Executing tool [workspace_file_checker] for task \"Build React Frontend & Connect API\"..."
+    },
+    {
+      "id": "log_1794915443416_done",
+      "userId": "usr_1794827003278",
+      "timestamp": "2026-11-17T11:37:23.416Z",
+      "level": "SUCCESS",
+      "source": "ToolRunner",
+      "message": "Tool [workspace_file_checker] output: \"Workspace Audit: Verified 4/4 critical files exist (package.json, tsconfig.json, lib/db.ts, lib/ai.ts).\" -> Status set to [completed]"
+    },
+    {
+      "id": "log_1794915443415_start",
+      "userId": "usr_1794827003278",
+      "timestamp": "2026-11-17T11:37:23.415Z",
+      "level": "TOOL",
+      "source": "AutonomousAgent",
+      "message": "Executing tool [workspace_file_checker] for task \"Plan & Scope: \"how to work on business plan\"\"..."
+    },
+    {
+      "id": "log_1794915438496_done",
+      "userId": "usr_1794827003278",
+      "timestamp": "2026-11-17T11:37:18.496Z",
+      "level": "SUCCESS",
+      "source": "ToolRunner",
+      "message": "Tool [code_syntax_validator] output: \"Syntax Validator: lib/db.ts passed syntax and balance audit (10 balanced scopes).\" -> Status set to [completed]"
+    },
+    {
+      "id": "log_1794915438496_start",
+      "userId": "usr_1794827003278",
+      "timestamp": "2026-11-17T11:37:18.496Z",
+      "level": "TOOL",
+      "source": "AutonomousAgent",
+      "message": "Executing tool [code_syntax_validator] for task \"Build Core Implementation\"..."
+    },
+    {
+      "id": "log_1794915428509_done",
+      "userId": "usr_1794827003278",
+      "timestamp": "2026-11-17T11:37:08.509Z",
+      "level": "SUCCESS",
+      "source": "ToolRunner",
+      "message": "Tool [api_endpoint_verifier] output: \"API Verifier: Internal Next.js App Router endpoints verified healthy.\" -> Status set to [completed]"
+    },
+    {
+      "id": "log_1794915428509_start",
+      "userId": "usr_1794827003278",
+      "timestamp": "2026-11-17T11:37:08.509Z",
+      "level": "TOOL",
+      "source": "AutonomousAgent",
+      "message": "Executing tool [api_endpoint_verifier] for task \"Verify & Test Deliverables\"..."
+    },
+    {
+      "id": "log_1794914734961",
+      "userId": "usr_1794827003278",
+      "timestamp": "2026-11-17T11:25:34.961Z",
+      "level": "INFO",
+      "source": "GeminiPlanner",
+      "message": "Decomposed goal \"how to work on business plan\" into 3 prioritized tasks."
+    },
+    {
+      "id": "log_1794914689482_done",
+      "userId": "usr_1794827003278",
+      "timestamp": "2026-11-17T11:24:49.482Z",
+      "level": "SUCCESS",
+      "source": "ToolRunner",
+      "message": "Tool [focus_timer_tracker] output: \"Focus Timer: Logged 60 minutes of dedicated deep work for \"Research MERN Stack Basics & Setup\".\" -> Status set to [completed]"
+    },
+    {
+      "id": "log_1794914689482_start",
+      "userId": "usr_1794827003278",
+      "timestamp": "2026-11-17T11:24:49.482Z",
+      "level": "TOOL",
+      "source": "AutonomousAgent",
+      "message": "Executing tool [focus_timer_tracker] for task \"Research MERN Stack Basics & Setup\"..."
+    },
+    {
+      "id": "log_1794914668333",
+      "userId": "usr_1794827003278",
+      "timestamp": "2026-11-17T11:24:28.333Z",
+      "level": "INFO",
+      "source": "GeminiPlanner",
+      "message": "Decomposed goal \"learn mern stack\" into 4 prioritized tasks."
+    },
+    {
+      "id": "log_1794827082153_task_1794827035451_4",
+      "userId": "usr_1794827003278",
+      "timestamp": "2026-11-16T11:04:42.153Z",
+      "level": "SUCCESS",
+      "source": "AutonomousLoop",
+      "message": "Auto-verified \"Customize and Serve Tea\" via [focus_timer_tracker]: Focus Timer: Logged 3 minutes of dedicated deep work for \"Customize and Serve Tea\". -> Status: [completed]"
+    },
+    {
+      "id": "log_1794827082153_task_1794827035451_3",
+      "userId": "usr_1794827003278",
+      "timestamp": "2026-11-16T11:04:42.153Z",
+      "level": "SUCCESS",
+      "source": "AutonomousLoop",
+      "message": "Auto-verified \"Steep Tea\" via [focus_timer_tracker]: Focus Timer: Logged 4 minutes of dedicated deep work for \"Steep Tea\". -> Status: [completed]"
+    },
+    {
+      "id": "log_1794827082153_task_1794827035451_2",
+      "userId": "usr_1794827003278",
+      "timestamp": "2026-11-16T11:04:42.153Z",
+      "level": "SUCCESS",
+      "source": "AutonomousLoop",
+      "message": "Auto-verified \"Boil Water\" via [focus_timer_tracker]: Focus Timer: Logged 5 minutes of dedicated deep work for \"Boil Water\". -> Status: [completed]"
+    },
+    {
+      "id": "log_1794827043898",
+      "userId": "usr_1794827003278",
+      "timestamp": "2026-11-16T11:04:03.898Z",
+      "level": "INFO",
+      "source": "GeminiPlanner",
+      "message": "Decomposed goal \"make a tea\" into 4 prioritized tasks."
+    }
+  ]
+}
